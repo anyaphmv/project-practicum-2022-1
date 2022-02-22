@@ -1,0 +1,79 @@
+.filter
+{
+  &__button-filter {
+    position: center;
+    display: flex;
+    margin: 25px 12px 1px;
+    width: 296px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 2px;
+  }
+  &__image {
+    margin-left: 101px;
+    margin-top: 18px;
+    width: 18px;
+    height: 12px;
+  }
+  &__name {
+      width: 63px;
+      height: 14px;
+      padding: 17px 15px;
+      display: flex;
+      font-style: normal;
+      font-weight: bold;
+  }
+
+  &__button-alphabet {
+    display: flex;
+    margin: 8px 12px;
+    width: 296px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 2px;
+  }
+
+  &__arrow {
+    margin-top: 21px;
+    margin-left: 44px;
+    width: 10px;
+    height: 5px;
+    display: flex;
+  }
+  &__alphabet{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 14px;
+    width: 207px;
+    height: 21px;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .filter {
+    display: flex;
+    &__button-filter {
+      margin-left: 16px;
+      width: 488px;
+    }
+
+    &__image {
+      margin-left: 196px;
+    }
+
+    &__button-alphabet {
+      margin-left: 16px;
+      margin-top: 25px;
+      width: 488px;
+    }
+
+    &__arrow {
+      margin-left: 235px;
+    }
+  }
+}
