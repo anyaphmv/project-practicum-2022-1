@@ -17,10 +17,36 @@
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    margin-left: 100px;
-    margin-top: 28px;
+    margin-left: 24px;
+    margin-top: 38px;
     width: 248px;
     height: 27px;
     text-align: left;
+  }
+  &__price1{
+    display: flex;
+  }
+  &__number1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 100px;
+    margin-top: 26px;
+    width: 74px;
+    height: 26px;
+    text-align: left;
+  }
+  &__rubles1{
+    width: 15.45px;
+    height: 17px;
+    margin-top: 32px;
+    margin-left: 5px;
+  }
+  &__basket1{
+    width: 18px;
+    height: 18px;
+    margin-top: 33px;
+    position: absolute;
   }
 }
