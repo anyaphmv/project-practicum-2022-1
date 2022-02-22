@@ -1,0 +1,45 @@
+.footer{
+  width: 320px;
+  height: 143px;
+  background: #202020;
+  margin-top: 64px;
+
+  &__legacy{
+    width: 296px;
+    height: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #909090;
+    padding-top: 24px;
+    margin-left: 12px;
+  }
+  &__political{
+    width: 296px;
+    height: 21px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: #FFCC07;
+    padding-top: 16px;
+    margin-left: 12px;
+    text-align: center;
+  }
+  &__company{
+    width: 170px;
+    height: 24px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.4px;
+    color: #909090;
+    padding-top: 16px;
+    margin-left: 79px;
+  }
+}
