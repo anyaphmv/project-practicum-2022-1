@@ -1,11 +1,18 @@
 .title{
   &__name{
     font-style: normal;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 30px;
     line-height: 33px;
     color: #202020;
     margin-top: 22px;
     margin-left: 12px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .title {
+    &__name{
+      margin-top: 27px;
+    }
   }
 }

@@ -66,35 +66,54 @@
         <img class="filter__image" src="./assets/svg/filter.svg" alt="filter">
         <p class="filter__name">ФИЛЬТР</p>
     </button>
-    <button class="filter__button-alphabet">
-        <p class="filter__alphabet">По алфавиту</p>
-        <img class="filter__arrow" src="./assets/svg/arrow.svg" alt="arrow">
-    </button>
+    <label>
+        <select class="filter__button-alphabet">
+            <option class="filter__alphabet" value="alphabet">По алфавиту</option>
+            <option class="filter__min-price" value="min-price">По цене по убыванию</option>
+            <option class="filter__max-price" value="max-price">По цене по возрастанию</option>
+        </select>
+    </label>
 </div>
 <div class="catalog">
-    <div class="catalog__product1">
-        <img class="catalog__image1" src="./assets/img/yellowcycle.png" alt="yellow-cycle">
-        <img class="catalog__basket1" src="./assets/svg/basket-black.svg" alt="basket">
+    <div class="catalog__row1">
+        <div class="catalog__product1">
+        <div class="catalog__images1">
+            <img class="catalog__image1" src="./assets/img/yellowcycle.png" alt="yellow-cycle">
+            <img class="catalog__basket1" src="./assets/svg/basket-black.svg" alt="basket">
+        </div>
         <div class="catalog__text1">BMX Forward ZigZag (2020)</div>
         <div class="catalog__price1">
             <div class="catalog__number1">34 000</div>
             <img class="catalog__rubles1" src="./assets/svg/rubles.svg" alt="rubles">
         </div>
     </div>
-    <div class="catalog__product2">
-        <img class="catalog__image2" src="./assets/img/redcycle.png" alt="red-cycle">
-        <img class="catalog__basket2" src="./assets/svg/basket-black.svg" alt="basket">
+        <div class="catalog__product2">
+        <div class="catalog__images2">
+            <img class="catalog__image2" src="./assets/img/redcycle.png" alt="red-cycle">
+            <div class="catalog__back-basket">
+                <img class="catalog__basket2" src="./assets/svg/basket.svg" alt="basket">
+            </div>
+        </div>
         <div class="catalog__text2">
             Городской велосипед<br>Bear Bike Амстердам (2019)
         </div>
         <div class="catalog__price2">
             <div class="catalog__number2">25 000</div>
             <img class="catalog__rubles2" src="./assets/svg/rubles.svg" alt="rubles">
+            <div class="catalog__old-price">
+                <div class="catalog__line"></div>
+                <div class="catalog__block-price">
+                    <div class="catalog__number2-1">34 000</div>
+                    <img class="catalog__rubles2-1" src="./assets/svg/rubles.svg" alt="rubles">
+                </div>
+            </div>
         </div>
     </div>
-    <div class="catalog__product3">
-        <img class="catalog__image3" src="./assets/img/bluecycle.png" alt="blue-cycle">
-        <img class="catalog__basket3" src="./assets/svg/basket-black.svg" alt="basket">
+        <div class="catalog__product3">
+        <div class="catalog__images3">
+            <img class="catalog__image3" src="./assets/img/bluecycle.png" alt="blue-cycle">
+            <img class="catalog__basket3" src="./assets/svg/basket-black.svg" alt="basket">
+        </div>
         <div class="catalog__text3">
             Горный велосипед<br>Forward Quadro 27.5 3.0<br>(2019)
         </div>
@@ -103,9 +122,11 @@
             <img class="catalog__rubles3" src="./assets/svg/rubles.svg" alt="rubles">
         </div>
     </div>
-    <div class="catalog__product4">
-        <img class="catalog__image4" src="./assets/img/yellowcycle.png" alt="yellow-cycle">
-        <img class="catalog__basket4" src="./assets/svg/basket-black.svg" alt="basket">
+        <div class="catalog__product4">
+        <div class="catalog__images4">
+            <img class="catalog__image4" src="./assets/img/yellowcycle.png" alt="yellow-cycle">
+            <img class="catalog__basket4" src="./assets/svg/basket-black.svg" alt="basket">
+        </div>
         <div class="catalog__text4">
             BMX Forward ZigZag (2020)
         </div>
@@ -113,6 +134,131 @@
             <div class="catalog__number4">34 000</div>
             <img class="catalog__rubles4" src="./assets/svg/rubles.svg" alt="rubles">
         </div>
+    </div>
+    </div>
+    <div class="catalog__row2">
+        <div class="catalog__product5">
+            <div class="catalog__images5">
+                <img class="catalog__image5" src="./assets/img/bluecycle.png" alt="blue-cycle">
+                <img class="catalog__basket5" src="./assets/svg/basket-black.svg" alt="basket">
+            </div>
+            <div class="catalog__text5">
+                Горный велосипед<br>Forward Quadro 27.5 3.0<br>(2019)
+            </div>
+            <div class="catalog__price5">
+                <div class="catalog__number5">34 000</div>
+                <img class="catalog__rubles5" src="./assets/svg/rubles.svg" alt="rubles">
+            </div>
+        </div>
+        <div class="catalog__product6">
+            <div class="catalog__images6">
+                <img class="catalog__image6" src="./assets/img/redcycle.png" alt="red-cycle">
+                <div class="catalog__back-basket6">
+                    <img class="catalog__basket6" src="./assets/svg/basket-black.svg" alt="basket">
+                </div>
+            </div>
+            <div class="catalog__text6">
+                Городской велосипед<br>Bear Bike Амстердам (2019)
+            </div>
+            <div class="catalog__price6">
+                <div class="catalog__number6">34 000</div>
+                <img class="catalog__rubles6" src="./assets/svg/rubles.svg" alt="rubles">
+                <div class="catalog__old-price6">
+                    <div class="catalog__line6"></div>
+                    <div class="catalog__block-price6">
+                        <div class="catalog__number6-1">34 000</div>
+                        <img class="catalog__rubles6-1" src="./assets/svg/rubles.svg" alt="rubles">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog__product7">
+        <div class="catalog__images7">
+            <img class="catalog__image7" src="./assets/img/yellowcycle.png" alt="yellow-cycle">
+            <img class="catalog__basket7" src="./assets/svg/basket-black.svg" alt="basket">
+        </div>
+        <div class="catalog__text7">
+            BMX Forward ZigZag (2020)
+        </div>
+        <div class="catalog__price7">
+            <div class="catalog__number7">34 000</div>
+            <img class="catalog__rubles7" src="./assets/svg/rubles.svg" alt="rubles">
+        </div>
+    </div>
+        <div class="catalog__product8">
+            <div class="catalog__images8">
+                <img class="catalog__image8" src="./assets/img/bluecycle.png" alt="blue-cycle">
+                <img class="catalog__basket8" src="./assets/svg/basket-black.svg" alt="basket">
+            </div>
+            <div class="catalog__text8">
+                Горный велосипед<br>Forward Quadro 27.5 3.0<br>(2019)
+            </div>
+            <div class="catalog__price8">
+                <div class="catalog__number8">34 000</div>
+                <img class="catalog__rubles8" src="./assets/svg/rubles.svg" alt="rubles">
+            </div>
+        </div>
+    </div>
+    <div class="catalog__row3">
+        <div class="catalog__product9">
+        <div class="catalog__images9">
+            <img class="catalog__image9" src="./assets/img/yellowcycle.png" alt="yellow-cycle">
+            <img class="catalog__basket9" src="./assets/svg/basket-black.svg" alt="basket">
+        </div>
+        <div class="catalog__text9">BMX Forward ZigZag (2020)</div>
+        <div class="catalog__price9">
+            <div class="catalog__number9">34 000</div>
+            <img class="catalog__rubles9" src="./assets/svg/rubles.svg" alt="rubles">
+        </div>
+    </div>
+        <div class="catalog__product10">
+        <div class="catalog__images10">
+            <img class="catalog__image10" src="./assets/img/bluecycle.png" alt="blue-cycle">
+            <img class="catalog__basket10" src="./assets/svg/basket-black.svg" alt="basket">
+        </div>
+        <div class="catalog__text10">
+            Горный велосипед<br>Forward Quadro 27.5 3.0<br>(2019)
+        </div>
+        <div class="catalog__price10">
+            <div class="catalog__number10">34 000</div>
+            <img class="catalog__rubles10" src="./assets/svg/rubles.svg" alt="rubles">
+        </div>
+    </div>
+        <div class="catalog__product11">
+            <div class="catalog__images11">
+                <img class="catalog__image11" src="./assets/img/redcycle.png" alt="red-cycle">
+                <div class="catalog__back-basket11">
+                    <img class="catalog__basket11" src="./assets/svg/basket-black.svg" alt="basket">
+                </div>
+            </div>
+            <div class="catalog__text11">
+                Городской велосипед<br>Bear Bike Амстердам (2019)
+            </div>
+            <div class="catalog__price11">
+                <div class="catalog__number11">34 000</div>
+                <img class="catalog__rubles11" src="./assets/svg/rubles.svg" alt="rubles">
+                <div class="catalog__old-price11">
+                    <div class="catalog__line11"></div>
+                    <div class="catalog__block-price11">
+                        <div class="catalog__number11-1">34 000</div>
+                        <img class="catalog__rubles11-1" src="./assets/svg/rubles.svg" alt="rubles">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog__product12">
+        <div class="catalog__images12">
+            <img class="catalog__image12" src="./assets/img/yellowcycle.png" alt="yellow-cycle">
+            <img class="catalog__basket12" src="./assets/svg/basket-black.svg" alt="basket">
+        </div>
+        <div class="catalog__text12">
+            BMX Forward ZigZag (2020)
+        </div>
+        <div class="catalog__price12">
+            <div class="catalog__number12">34 000</div>
+            <img class="catalog__rubles12" src="./assets/svg/rubles.svg" alt="rubles">
+        </div>
+    </div>
     </div>
     <div class="catalog__bullets">
         <div class="catalog__square1">
@@ -135,9 +281,11 @@
         Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</div>
 </div>
 <div class="footer">
-    <div class="footer__legacy">© LEGACY, 2021</div>
-    <div class="footer__political">Политика конфиденциальности</div>
-    <div class="footer__company">Сайт разработан в LEGACY </div>
+    <div class="footer__texts">
+        <div class="footer__legacy">© LEGACY, 2021</div>
+        <div class="footer__political">Политика конфиденциальности</div>
+        <div class="footer__company">Сайт разработан в LEGACY </div>
+    </div>
 </div>
 </body>
 </html>
