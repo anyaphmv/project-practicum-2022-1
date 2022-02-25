@@ -116,7 +116,7 @@
 @media screen and (min-width: 1024px) {
   .bullets {
     &__square1 {
-      margin-left: 236px;
+      margin-left: 170px;
     }
     &__square6{
       display: inline-block;
@@ -158,7 +158,7 @@
       line-height: 21px;
       align-items: center;
       color: #202020;}
-    &__field{margin-left: 16px}
+    &__field{margin-left: 16px;width: 68px; height: 36px;}
     &__SEO-text {
       width: 736px;
       height: 216px;
@@ -168,5 +168,19 @@
       margin-left: 19px;
       color: #636363;
     }
+  }
+}
+@media screen and (min-width: 1920px) {
+  .bullets {
+    margin-left: 554px;
+    &__square1 {
+      margin-left: 400px;
+    }
+    &__SEO-text{
+      width: 1054px;
+      height: 144px;
+    }
+    &__show{margin-left: 246px;}
+    &__field{margin-left: 16px;}
   }
 }

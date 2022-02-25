@@ -47,6 +47,9 @@
     height: 5px;
     display: flex;
   }
+  &__sorts{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -70,6 +73,32 @@
 
     &__arrow {
       margin-left: 235px;
+    }
+    &__sorts{
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .filter {
+    margin-left: 1490px;
+    &__button-alphabet{
+      position: absolute;
+      margin-top: -60px;
+      width: 250px;
+      height: 48px;}
+    &__button-filter {
+      display: none;
+    }
+    &__sorts{
+      display: flex;
+      position: absolute;
+      margin-top: -40px;
+      margin-left: -100px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
     }
   }
 }

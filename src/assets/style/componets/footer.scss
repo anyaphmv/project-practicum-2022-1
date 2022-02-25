@@ -71,3 +71,16 @@
     }
   }
 }
+@media screen and (min-width: 1920px) {
+  .footer {
+    &__legacy{
+      margin-left: 160px;
+    }
+    &__political{
+      margin-left: 588px;
+    }
+    &__company{
+      margin-left: 533px;
+    }
+  }
+}

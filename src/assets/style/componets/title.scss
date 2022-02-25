@@ -16,3 +16,17 @@
     }
   }
 }
+@media screen and (min-width: 1920px) {
+  .title {
+    align-items: center;
+    &__name{
+      position: relative;
+      font-weight: 600;
+      margin-left: 566px;
+      font-size: 48px;
+      font-weight: bold;
+      width: 648px;
+      height: 54px;
+    }
+  }
+}
