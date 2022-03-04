@@ -269,6 +269,18 @@
   &__product10{display: none}
   &__product11{display: none}
   &__product12{display: none}
+  &__heart1{display: none}
+  &__heart2{display: none}
+  &__heart3{display: none}
+  &__heart4{display: none}
+  &__heart5{display: none}
+  &__heart6{display: none}
+  &__heart7{display: none}
+  &__heart8{display: none}
+  &__heart9{display: none}
+  &__heart10{display: none}
+  &__heart11{display: none}
+  &__heart12{display: none}
 }
 
 @media screen and (min-width: 1024px) {
@@ -277,12 +289,10 @@
       width: 236px;
       height: 356px;
     }
-
     &__image1 {
       width: 188px;
       height: 188px;
     }
-
     &__text1 {
       font-weight: 300;
       font-size: 16px;
@@ -292,37 +302,31 @@
       text-align: center;
       margin-top: 24px;
     }
-
     &__number1 {
       font-size: 24px;
       margin-left: 70px;
       margin-top: 24px;
     }
-
     &__rubles1 {
       width: 15.45px;
       height: 17px;
       margin-top: 29px;
     }
-
     &__basket1 {
       width: 20px;
       height: 20px;
       margin-top: 24px;
       left: 192px;
     }
-
     &__product2 {
       width: 236px;
       height: 356px;
       margin-top: 35px;
     }
-
     &__image2 {
       width: 176px;
       height: 176px;
     }
-
     &__text2 {
       font-weight: 300;
       font-size: 16px;
@@ -332,64 +336,52 @@
       text-align: center;
       margin-top: 25px;
     }
-
     &__number2 {
       font-size: 24px;
       margin-left: 70px;
       margin-top: 13px;
     }
-
     &__rubles2 {
       width: 15.45px;
       height: 17px;
       margin-top: 18px;
     }
-
     &__number2-1 {
       display: none;
     }
-
     &__rubles2-1 {
       display: none;
     }
-
     &__line {
       display: none;
     }
-
     &__old-price {
       display: none;
     }
-
     &__block-price {
       display: none;
     }
-
     &__back-basket {
       width: 44px;
       height: 44px;
       top: 12px;
       left: 180px;
     }
-
     &__basket2 {
       width: 20px;
       height: 20px;
       margin-top: 12px;
       margin-left: 12px;
     }
-
     &__product3 {
       width: 236px;
       height: 356px;
       margin-top: 35px;
     }
-
     &__image3 {
       width: 176px;
       height: 176px;
     }
-
     &__text3 {
       font-weight: 300;
       font-size: 16px;
@@ -399,37 +391,31 @@
       text-align: center;
       margin-top: 18px;
     }
-
     &__number3 {
       font-size: 24px;
       margin-left: 70px;
       margin-top: 5px;
     }
-
     &__rubles3 {
       width: 15.45px;
       height: 17px;
       margin-top: 10px;
     }
-
     &__basket3 {
       width: 20px;
       height: 20px;
       margin-top: 24px;
       left: 192px;
     }
-
     &__product4 {
       width: 236px;
       height: 356px;
       margin-top: 35px;
     }
-
     &__image4 {
       width: 188px;
       height: 188px;
     }
-
     &__text4 {
       font-weight: 300;
       font-size: 16px;
@@ -439,26 +425,22 @@
       text-align: center;
       margin-top: 24px;
     }
-
     &__number4 {
       font-size: 24px;
       margin-left: 70px;
       margin-top: 24px;
     }
-
     &__rubles4 {
       width: 15.45px;
       height: 17px;
       margin-top: 29px;
     }
-
     &__basket4 {
       width: 20px;
       height: 20px;
       margin-top: 24px;
       left: 192px;
     }
-
     &__product5 {
       display: inline-block;
       background: #FFFFFF;
@@ -470,18 +452,15 @@
       margin-top: 16px;
       margin-left: 12px;
     }
-
     &__images5 {
       position: relative;
     }
-
     &__image5 {
       margin-top: 24px;
       margin-left: 24px;
       width: 176px;
       height: 176px;
     }
-
     &__text5 {
       font-style: normal;
       font-weight: 300;
@@ -493,11 +472,9 @@
       height: 81px;
       text-align: center;
     }
-
     &__price5 {
       display: flex;
     }
-
     &__number5 {
       font-style: normal;
       font-weight: 600;
@@ -509,14 +486,12 @@
       height: 26px;
       text-align: left;
     }
-
     &__rubles5 {
       width: 15.45px;
       height: 17px;
       margin-top: 10px;
       margin-left: 5.77px;
     }
-
     &__basket5 {
       width: 20px;
       height: 20px;
@@ -525,7 +500,6 @@
       top: 0;
       left: 192px;
     }
-
     &__product6 {
       display: inline-block;
       background: #FFFFFF;
@@ -537,18 +511,15 @@
       margin-top: 16px;
       margin-left: 12px;
     }
-
     &__images6 {
       position: relative;
     }
-
     &__image6 {
       margin-top: 24px;
       margin-left: 24px;
       width: 176px;
       height: 176px;
     }
-
     &__text6 {
       font-style: normal;
       font-weight: 300;
@@ -560,11 +531,9 @@
       height: 66px;
       text-align: center;
     }
-
     &__price6 {
       display: flex;
     }
-
     &__number6 {
       font-style: normal;
       font-weight: 600;
@@ -576,34 +545,27 @@
       height: 26px;
       text-align: left;
     }
-
     &__rubles6 {
       width: 15.45px;
       height: 17px;
       margin-top: 18px;
       margin-left: 5.77px;
     }
-
     &__number6-1 {
       display: none;
     }
-
     &__rubles6-1 {
       display: none;
     }
-
     &__line6 {
       display: none;
     }
-
     &__old-price6 {
       display: none;
     }
-
     &__block-price6 {
       display: none;
     }
-
     &__basket6 {
       width: 20px;
       height: 20px;
@@ -612,7 +574,6 @@
       top: 0;
       left: 192px;
     }
-
     &__product7 {
       display: inline-block;
       background: #FFFFFF;
@@ -624,18 +585,15 @@
       margin-top: 16px;
       margin-left: 12px;
     }
-
     &__images7 {
       position: relative;
     }
-
     &__image7 {
       margin-top: 24px;
       margin-left: 24px;
       width: 188px;
       height: 188px;
     }
-
     &__text7 {
       font-style: normal;
       font-weight: 300;
@@ -647,11 +605,9 @@
       height: 44px;
       text-align: center;
     }
-
     &__price7 {
       display: flex;
     }
-
     &__number7 {
       font-style: normal;
       font-weight: 600;
@@ -663,14 +619,12 @@
       height: 26px;
       text-align: left;
     }
-
     &__rubles7 {
       width: 15.45px;
       height: 17px;
       margin-top: 29px;
       margin-left: 5.77px;
     }
-
     &__basket7 {
       width: 20px;
       height: 20px;
@@ -679,7 +633,6 @@
       top: 0;
       left: 192px;
     }
-
     &__product8 {
       display: inline-block;
       background: #FFFFFF;
@@ -1331,6 +1284,101 @@
     &__rubles10 {
       margin-top: 21px;
     }
+    &__heart1{
+      display: flex;
+      position: absolute;
+      width: 24px;
+      height: 22px;
+      margin-top: 2px;
+      top:20px;
+      left:24px;}
+    &__heart2{
+      display: flex;
+      position: absolute;
+      width: 24px;
+      height: 22px;
+      margin-top: 2px;
+      top:20px;
+      left:24px;}
+    &__heart3{
+      display: flex;
+      position: absolute;
+      width: 24px;
+      height: 22px;
+      margin-top: 2px;
+      top:20px;
+      left:24px;}
+    &__heart4{
+      display: flex;
+      position: absolute;
+      width: 24px;
+      height: 22px;
+      margin-top: 2px;
+      top:20px;
+      left:24px;}
+    &__heart5{
+      display: flex;
+      position: absolute;
+      width: 24px;
+      height: 22px;
+      margin-top: 2px;
+      top:20px;
+      left:24px;}
+    &__heart6{
+      display: flex;
+      position: absolute;
+      width: 24px;
+      height: 22px;
+      margin-top: 2px;
+      top:20px;
+      left:24px;}
+    &__heart7{
+      display: flex;
+      position: absolute;
+      width: 24px;
+      height: 22px;
+      margin-top: 2px;
+      top:20px;
+      left:24px;}
+    &__heart8{
+      display: flex;
+      position: absolute;
+      width: 24px;
+      height: 22px;
+      margin-top: 2px;
+      top:20px;
+      left:24px;}
+    &__heart9{
+      display: flex;
+      position: absolute;
+      width: 24px;
+      height: 22px;
+      margin-top: 2px;
+      top:20px;
+      left:24px;}
+    &__heart10{
+      display: flex;
+      position: absolute;
+      width: 24px;
+      height: 22px;
+      margin-top: 2px;
+      top:20px;
+      left:24px;}
+    &__heart11{
+      display: flex;
+      position: absolute;
+      width: 24px;
+      height: 22px;
+      margin-top: 2px;
+      top:20px;
+      left:24px;}
+    &__heart12{
+      display: flex;
+      position: absolute;
+      width: 24px;
+      height: 22px;
+      margin-top: 2px;
+      top:20px;
+      left:24px;}
   }
-
 }

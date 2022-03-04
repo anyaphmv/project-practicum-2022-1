@@ -77,7 +77,45 @@
       font-size: 16px;
       color: #636363;
     }
+    &__first{
+      display: flex;
+    }
+    &__arrow{
+      margin-top: 5px;
+      width: 10px;
+      height: 5px;
+      margin-left: 300px;
+    }
+    &__arrows{
+      margin-top: 26px;
+      width: 10px;
+      height: 5px;
+      margin-left: 263px;
+    }
+    &__slider{
+      display: flex;
+    }
+    &__slider1{
+      width: 4px;
+      height: 168px;
+      background: #E9E9E9;
+      margin-top: 25px;
+      margin-left: 304px;
+      border-radius: 3px;
+      position: absolute;
+    }
+    &__slider2{
+      position: absolute;
+      width: 4px;
+      height: 140px;
+      background: #636363;
+      border-radius: 3px;
+      margin-top: 25px;
+      margin-left: 304px;
+    }
     &__title1{
+      position: absolute;
+      width: 83px;
       font-style: normal;
       font-weight: bold;
       font-size: 16px;
@@ -100,47 +138,92 @@
       margin-left: 152px;
     }
     &__check1{
-      margin-top: 16px;
       width: 82px;
       height: 24px;
+      margin-top: 16px;
+      color: #636363;
     }
     &__check2{
       margin-top: 2px;
       width: 102px;
       height: 24px;
+      color: #636363;
     }
     &__check3{
       margin-top: 2px;
       width: 102px;
       height: 24px;
+      color: #636363;
     }
     &__check4{
       margin-top: 2px;
       width: 152px;
       height: 24px;
+      color: #636363;
     }
     &__check5{
       margin-top: 2px;
       width: 152px;
       height: 24px;
+      color: #636363;
     }
     &__check6{
       margin-top: 2px;
       width: 102px;
       height: 24px;
+      color: #636363;
     }
     &__check7{
       margin-top: 2px;
       width: 102px;
       height: 24px;
+      color: #636363;
+    }
+    &__zena{
+
     }
     &__polzunok{
-      margin-left: 152px;
-      margin-top: 16px;
+      display: flex;
     }
-    &__slider{
+    &__line5{
       width: 305px;
-      color: #7C48BF;
+      height: 4px;
+      background: rgba(32, 32, 32, 0.1);
+      margin-top: 22px;
+      margin-left: 155px;
     }
+    &__circle1{
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      background: #7C48BF;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+      border-radius: 8px;
+      margin-top: 16px;
+      margin-left: 155px;
+    }
+    &__circle2{
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      background: #7C48BF;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+      border-radius: 8px;
+      margin-top: 16px;
+      margin-left: 455px;
+    }
+    &__prices{
+      display: flex;
+      margin-top: 12px;
+      margin-left: 155px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      color: #636363;
+    }
+    &__zena2{
+      margin-left: 195px;
+    }
+
   }
 }
