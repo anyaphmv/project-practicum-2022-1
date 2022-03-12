@@ -1,4 +1,7 @@
 .catalog{
+  display: flex;
+  gap: 88px;
+  text-align: center;
   &__product1{
     background: #FFFFFF;
     border: 1px solid #E9E9E9;
@@ -6,8 +9,8 @@
     border-radius: 2px;
     Width: 296px;
     Height: 417px;
-    margin-top: 35px;
     margin-left: 12px;
+    margin-top: 12px;
   }
   &__images1{position: relative;}
   &__image1{
@@ -23,7 +26,7 @@
     margin-left: 24px;
     margin-top: 38px;
     width: 248px;
-    height: 27px;
+    height: 41px;
     text-align: left;
   }
   &__price1{
@@ -35,7 +38,7 @@
     font-size: 24px;
     line-height: 28px;
     margin-left: 100px;
-    margin-top: 26px;
+    margin-top: 1px;
     width: 74px;
     height: 26px;
     text-align: left;
@@ -43,7 +46,7 @@
   &__rubles1{
     width: 15.45px;
     height: 17px;
-    margin-top: 32px;
+    margin-top: 7px;
     margin-left: 5px;
   }
   &__basket1{
@@ -54,23 +57,6 @@
     top:0;
     left:250px;
   }
-  &__product2{
-    background: #FFFFFF;
-    border: 1px solid #E9E9E9;
-    box-sizing: border-box;
-    border-radius: 2px;
-    Width: 296px;
-    Height: 417px;
-    margin-top: 12px;
-    margin-left: 12px;
-  }
-  &__images2{position: relative;}
-  &__image2{
-    margin-top: 24px;
-    margin-left: 24px;
-    width: 248px;
-    height: 248px;
-  }
   &__text2{
     font-style: normal;
     font-weight: normal;
@@ -79,28 +65,8 @@
     margin-left: 24px;
     margin-top: 24px;
     width: 248px;
-    height: 54px;
+    height: 61px;
     text-align: center;
-  }
-  &__price2{
-    display: flex;
-  }
-  &__number2{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 28px;
-    margin-left: 64px;
-    margin-top: 15px;
-    width: 74px;
-    height: 26px;
-    text-align: left;
-  }
-  &__rubles2{
-    width: 15.45px;
-    height: 17px;
-    margin-top: 21px;
-    margin-left: 5px;
   }
   &__number2-1{
     font-style: normal;
@@ -110,20 +76,20 @@
     align-items: center;
     text-align: center;
     color: #202020;
-    margin-top: 19px;
+    margin-top: 10px;
   }
   &__rubles2-1{
     width: 8.17px;
     height: 11px;
     color: #000000;
-    margin-top: 27px;
+    margin-top: 18px;
     margin-left: 4.91px;
   }
   &__line{
     width: 64px;
     height: 1px;
     position: absolute;
-    top: 30px;
+    top: 22px;
     background: #202020;
   }
   &__old-price{
@@ -149,23 +115,6 @@
     margin-top: 9px;
     margin-left: 9px;
   }
-  &__product3{
-    background: #FFFFFF;
-    border: 1px solid #E9E9E9;
-    box-sizing: border-box;
-    border-radius: 2px;
-    Width: 296px;
-    Height: 417px;
-    margin-top: 12px;
-    margin-left: 12px;
-  }
-  &__images3{position: relative;}
-  &__image3{
-    margin-top: 24px;
-    margin-left: 24px;
-    width: 248px;
-    height: 248px;
-  }
   &__text3{
     font-style: normal;
     font-weight: normal;
@@ -177,110 +126,14 @@
     height: 81px;
     text-align: center;
   }
-  &__price3{
-    display: flex;
-  }
-  &__number3{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 28px;
-    margin-left: 100px;
-    margin-top: 1px;
-    width: 74px;
-    height: 26px;
-    text-align: left;
-  }
-  &__rubles3{
-    width: 15.45px;
-    height: 17px;
-    margin-top: 7px;
-    margin-left: 5px;
-  }
-  &__basket3{
-    width: 18px;
-    height: 18px;
-    margin-top: 33px;
-    position: absolute;
-    top:0;
-    left:250px;
-  }
-  &__product4{
-    background: #FFFFFF;
-    border: 1px solid #E9E9E9;
-    box-sizing: border-box;
-    border-radius: 2px;
-    Width: 296px;
-    Height: 417px;
-    margin-top: 12px;
-    margin-left: 12px;
-  }
-  &__images4{position: relative;}
-  &__image4{
-    margin-top: 24px;
-    margin-left: 24px;
-    width: 248px;
-    height: 248px;
-  }
-  &__text4{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 27px;
-    margin-left: 24px;
-    margin-top: 38px;
-    width: 248px;
-    height: 27px;
-    text-align: center;
-  }
-  &__price4{
-    display: flex;
-  }
-  &__number4{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 28px;
-    margin-left: 100px;
-    margin-top: 28px;
-    width: 74px;
-    height: 26px;
-    text-align: left;
-  }
-  &__rubles4{
-    width: 15.45px;
-    height: 17px;
-    margin-top: 33px;
-    margin-left: 5px;
-  }
-  &__basket4{
-    width: 18px;
-    height: 18px;
-    margin-top: 33px;
-    position: absolute;
-    top:0;
-    left:250px;
-  }
-  &__product5{display: none}
-  &__product6{display: none}
-  &__product7{display: none}
-  &__product8{display: none}
-  &__product9{display: none}
-  &__product10{display: none}
-  &__product11{display: none}
-  &__product12{display: none}
   &__heart1{display: none}
-  &__heart2{display: none}
-  &__heart3{display: none}
-  &__heart4{display: none}
-  &__heart5{display: none}
-  &__heart6{display: none}
-  &__heart7{display: none}
-  &__heart8{display: none}
-  &__heart9{display: none}
-  &__heart10{display: none}
-  &__heart11{display: none}
-  &__heart12{display: none}
+  &__row1{
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4px;
+  }
+  &__row2{display: none}
+  &__row3{display: none}
 }
 
 @media screen and (min-width: 1024px) {
@@ -288,6 +141,7 @@
     &__product1 {
       width: 236px;
       height: 356px;
+      margin-top: 0px;
     }
     &__image1 {
       width: 188px;
@@ -298,34 +152,25 @@
       font-size: 16px;
       line-height: 22px;
       width: 188px;
-      height: 44px;
+      height: 66px;
       text-align: center;
       margin-top: 24px;
     }
     &__number1 {
       font-size: 24px;
       margin-left: 70px;
-      margin-top: 24px;
+      margin-top: 5px;
     }
     &__rubles1 {
       width: 15.45px;
       height: 17px;
-      margin-top: 29px;
+      margin-top: 9px;
     }
     &__basket1 {
       width: 20px;
       height: 20px;
       margin-top: 24px;
       left: 192px;
-    }
-    &__product2 {
-      width: 236px;
-      height: 356px;
-      margin-top: 35px;
-    }
-    &__image2 {
-      width: 176px;
-      height: 176px;
     }
     &__text2 {
       font-weight: 300;
@@ -336,15 +181,14 @@
       text-align: center;
       margin-top: 25px;
     }
-    &__number2 {
-      font-size: 24px;
-      margin-left: 70px;
-      margin-top: 13px;
-    }
-    &__rubles2 {
-      width: 15.45px;
-      height: 17px;
-      margin-top: 18px;
+    &__text3 {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 22px;
+      width: 188px;
+      height: 66px;
+      text-align: center;
+      margin-top: 25px;
     }
     &__number2-1 {
       display: none;
@@ -373,494 +217,6 @@
       margin-top: 12px;
       margin-left: 12px;
     }
-    &__product3 {
-      width: 236px;
-      height: 356px;
-      margin-top: 35px;
-    }
-    &__image3 {
-      width: 176px;
-      height: 176px;
-    }
-    &__text3 {
-      font-weight: 300;
-      font-size: 16px;
-      line-height: 22px;
-      width: 188px;
-      height: 81px;
-      text-align: center;
-      margin-top: 18px;
-    }
-    &__number3 {
-      font-size: 24px;
-      margin-left: 70px;
-      margin-top: 5px;
-    }
-    &__rubles3 {
-      width: 15.45px;
-      height: 17px;
-      margin-top: 10px;
-    }
-    &__basket3 {
-      width: 20px;
-      height: 20px;
-      margin-top: 24px;
-      left: 192px;
-    }
-    &__product4 {
-      width: 236px;
-      height: 356px;
-      margin-top: 35px;
-    }
-    &__image4 {
-      width: 188px;
-      height: 188px;
-    }
-    &__text4 {
-      font-weight: 300;
-      font-size: 16px;
-      line-height: 22px;
-      width: 188px;
-      height: 44px;
-      text-align: center;
-      margin-top: 24px;
-    }
-    &__number4 {
-      font-size: 24px;
-      margin-left: 70px;
-      margin-top: 24px;
-    }
-    &__rubles4 {
-      width: 15.45px;
-      height: 17px;
-      margin-top: 29px;
-    }
-    &__basket4 {
-      width: 20px;
-      height: 20px;
-      margin-top: 24px;
-      left: 192px;
-    }
-    &__product5 {
-      display: inline-block;
-      background: #FFFFFF;
-      border: 1px solid #E9E9E9;
-      box-sizing: border-box;
-      border-radius: 2px;
-      Width: 236px;
-      Height: 356px;
-      margin-top: 16px;
-      margin-left: 12px;
-    }
-    &__images5 {
-      position: relative;
-    }
-    &__image5 {
-      margin-top: 24px;
-      margin-left: 24px;
-      width: 176px;
-      height: 176px;
-    }
-    &__text5 {
-      font-style: normal;
-      font-weight: 300;
-      font-size: 16px;
-      line-height: 22px;
-      margin-left: 24px;
-      margin-top: 18px;
-      width: 188px;
-      height: 81px;
-      text-align: center;
-    }
-    &__price5 {
-      display: flex;
-    }
-    &__number5 {
-      font-style: normal;
-      font-weight: 600;
-      font-size: 24px;
-      line-height: 28px;
-      margin-left: 80px;
-      margin-top: 5px;
-      width: 74px;
-      height: 26px;
-      text-align: left;
-    }
-    &__rubles5 {
-      width: 15.45px;
-      height: 17px;
-      margin-top: 10px;
-      margin-left: 5.77px;
-    }
-    &__basket5 {
-      width: 20px;
-      height: 20px;
-      margin-top: 24px;
-      position: absolute;
-      top: 0;
-      left: 192px;
-    }
-    &__product6 {
-      display: inline-block;
-      background: #FFFFFF;
-      border: 1px solid #E9E9E9;
-      box-sizing: border-box;
-      border-radius: 2px;
-      Width: 236px;
-      Height: 356px;
-      margin-top: 16px;
-      margin-left: 12px;
-    }
-    &__images6 {
-      position: relative;
-    }
-    &__image6 {
-      margin-top: 24px;
-      margin-left: 24px;
-      width: 176px;
-      height: 176px;
-    }
-    &__text6 {
-      font-style: normal;
-      font-weight: 300;
-      font-size: 16px;
-      line-height: 22px;
-      margin-left: 24px;
-      margin-top: 25px;
-      width: 188px;
-      height: 66px;
-      text-align: center;
-    }
-    &__price6 {
-      display: flex;
-    }
-    &__number6 {
-      font-style: normal;
-      font-weight: 600;
-      font-size: 24px;
-      line-height: 28px;
-      margin-left: 70px;
-      margin-top: 13px;
-      width: 74px;
-      height: 26px;
-      text-align: left;
-    }
-    &__rubles6 {
-      width: 15.45px;
-      height: 17px;
-      margin-top: 18px;
-      margin-left: 5.77px;
-    }
-    &__number6-1 {
-      display: none;
-    }
-    &__rubles6-1 {
-      display: none;
-    }
-    &__line6 {
-      display: none;
-    }
-    &__old-price6 {
-      display: none;
-    }
-    &__block-price6 {
-      display: none;
-    }
-    &__basket6 {
-      width: 20px;
-      height: 20px;
-      margin-top: 24px;
-      position: absolute;
-      top: 0;
-      left: 192px;
-    }
-    &__product7 {
-      display: inline-block;
-      background: #FFFFFF;
-      border: 1px solid #E9E9E9;
-      box-sizing: border-box;
-      border-radius: 2px;
-      Width: 236px;
-      Height: 356px;
-      margin-top: 16px;
-      margin-left: 12px;
-    }
-    &__images7 {
-      position: relative;
-    }
-    &__image7 {
-      margin-top: 24px;
-      margin-left: 24px;
-      width: 188px;
-      height: 188px;
-    }
-    &__text7 {
-      font-style: normal;
-      font-weight: 300;
-      font-size: 16px;
-      line-height: 22px;
-      margin-left: 24px;
-      margin-top: 24px;
-      width: 188px;
-      height: 44px;
-      text-align: center;
-    }
-    &__price7 {
-      display: flex;
-    }
-    &__number7 {
-      font-style: normal;
-      font-weight: 600;
-      font-size: 24px;
-      line-height: 28px;
-      margin-left: 70px;
-      margin-top: 24px;
-      width: 74px;
-      height: 26px;
-      text-align: left;
-    }
-    &__rubles7 {
-      width: 15.45px;
-      height: 17px;
-      margin-top: 29px;
-      margin-left: 5.77px;
-    }
-    &__basket7 {
-      width: 20px;
-      height: 20px;
-      margin-top: 24px;
-      position: absolute;
-      top: 0;
-      left: 192px;
-    }
-    &__product8 {
-      display: inline-block;
-      background: #FFFFFF;
-      border: 1px solid #E9E9E9;
-      box-sizing: border-box;
-      border-radius: 2px;
-      Width: 236px;
-      Height: 356px;
-      margin-top: 16px;
-      margin-left: 12px;
-    }
-    &__images8 {
-      position: relative;
-    }
-    &__image8 {
-      margin-top: 24px;
-      margin-left: 24px;
-      width: 176px;
-      height: 176px;
-    }
-    &__text8 {
-      font-style: normal;
-      font-weight: 300;
-      font-size: 16px;
-      line-height: 22px;
-      margin-left: 24px;
-      margin-top: 18px;
-      width: 188px;
-      height: 81px;
-      text-align: center;
-    }
-    &__price8 {
-      display: flex;
-    }
-    &__number8 {
-      font-style: normal;
-      font-weight: 600;
-      font-size: 24px;
-      line-height: 28px;
-      margin-left: 80px;
-      margin-top: 5px;
-      width: 74px;
-      height: 26px;
-      text-align: left;
-    }
-    &__rubles8 {
-      width: 15.45px;
-      height: 17px;
-      margin-top: 10px;
-      margin-left: 5.77px;
-    }
-    &__basket8 {
-      width: 20px;
-      height: 20px;
-      margin-top: 24px;
-      position: absolute;
-      top: 0;
-      left: 192px;
-    }
-    &__product9 {
-      display: inline-block;
-      background: #FFFFFF;
-      border: 1px solid #E9E9E9;
-      box-sizing: border-box;
-      border-radius: 2px;
-      Width: 236px;
-      Height: 356px;
-      margin-top: 16px;
-      margin-left: 12px;
-    }
-    &__images9 {
-      position: relative;
-    }
-    &__image9 {
-      margin-top: 24px;
-      margin-left: 24px;
-      width: 188px;
-      height: 188px;
-    }
-    &__text9 {
-      font-style: normal;
-      font-weight: 300;
-      font-size: 16px;
-      line-height: 22px;
-      margin-left: 24px;
-      margin-top: 24px;
-      width: 188px;
-      height: 44px;
-      text-align: center;
-    }
-    &__price9 {
-      display: flex;
-    }
-    &__number9 {
-      font-style: normal;
-      font-weight: 600;
-      font-size: 24px;
-      line-height: 28px;
-      margin-left: 70px;
-      margin-top: 24px;
-      width: 74px;
-      height: 26px;
-      text-align: left;
-    }
-    &__rubles9 {
-      width: 15.45px;
-      height: 17px;
-      margin-top: 29px;
-      margin-left: 5.77px;
-    }
-    &__basket9 {
-      width: 20px;
-      height: 20px;
-      margin-top: 24px;
-      position: absolute;
-      top: 0;
-      left: 192px;
-    }
-    &__product10 {
-      display: inline-block;
-      background: #FFFFFF;
-      border: 1px solid #E9E9E9;
-      box-sizing: border-box;
-      border-radius: 2px;
-      Width: 236px;
-      Height: 356px;
-      margin-top: 16px;
-      margin-left: 12px;
-    }
-    &__images10 {
-      position: relative;
-    }
-    &__image10 {
-      margin-top: 24px;
-      margin-left: 24px;
-      width: 176px;
-      height: 176px;
-    }
-    &__text10 {
-      font-style: normal;
-      font-weight: 300;
-      font-size: 16px;
-      line-height: 22px;
-      margin-left: 24px;
-      margin-top: 18px;
-      width: 188px;
-      height: 81px;
-      text-align: center;
-    }
-    &__price10 {
-      display: flex;
-    }
-    &__number10 {
-      font-style: normal;
-      font-weight: 600;
-      font-size: 24px;
-      line-height: 28px;
-      margin-left: 80px;
-      margin-top: 5px;
-      width: 74px;
-      height: 26px;
-      text-align: left;
-    }
-    &__rubles10 {
-      width: 15.45px;
-      height: 17px;
-      margin-top: 10px;
-      margin-left: 5.77px;
-    }
-    &__basket10 {
-      width: 20px;
-      height: 20px;
-      margin-top: 24px;
-      position: absolute;
-      top: 0;
-      left: 192px;
-    }
-    &__product11 {
-      display: inline-block;
-      background: #FFFFFF;
-      border: 1px solid #E9E9E9;
-      box-sizing: border-box;
-      border-radius: 2px;
-      Width: 236px;
-      Height: 356px;
-      margin-top: 16px;
-      margin-left: 12px;
-    }
-    &__images11 {
-      position: relative;
-    }
-    &__image11 {
-      margin-top: 24px;
-      margin-left: 24px;
-      width: 176px;
-      height: 176px;
-    }
-    &__text11 {
-      font-style: normal;
-      font-weight: 300;
-      font-size: 16px;
-      line-height: 22px;
-      margin-left: 24px;
-      margin-top: 25px;
-      width: 188px;
-      height: 66px;
-      text-align: center;
-    }
-    &__price11 {
-      display: flex;
-    }
-    &__number11 {
-      font-style: normal;
-      font-weight: 600;
-      font-size: 24px;
-      line-height: 28px;
-      margin-left: 70px;
-      margin-top: 13px;
-      width: 74px;
-      height: 26px;
-      text-align: left;
-    }
-    &__rubles11 {
-      width: 15.45px;
-      height: 17px;
-      margin-top: 18px;
-      margin-left: 5.77px;
-    }
     &__number11-1 {
       display: none;
     }
@@ -876,81 +232,17 @@
     &__block-price11 {
       display: none;
     }
-    &__basket11 {
-      width: 20px;
-      height: 20px;
-      margin-top: 24px;
-      position: absolute;
-      top: 0;
-      left: 192px;
-    }
-    &__product12 {
-      display: inline-block;
-      background: #FFFFFF;
-      border: 1px solid #E9E9E9;
-      box-sizing: border-box;
-      border-radius: 2px;
-      Width: 236px;
-      Height: 356px;
-      margin-top: 16px;
-      margin-left: 12px;
-    }
-    &__images12 {
-      position: relative;
-    }
-    &__image12 {
-      margin-top: 24px;
-      margin-left: 24px;
-      width: 188px;
-      height: 188px;
-    }
-    &__text12 {
-      font-style: normal;
-      font-weight: 300;
-      font-size: 16px;
-      line-height: 22px;
-      margin-left: 24px;
-      margin-top: 24px;
-      width: 188px;
-      height: 44px;
-      text-align: center;
-    }
-    &__price12 {
-      display: flex;
-    }
-    &__number12 {
-      font-style: normal;
-      font-weight: 600;
-      font-size: 24px;
-      line-height: 28px;
-      margin-left: 70px;
-      margin-top: 24px;
-      width: 74px;
-      height: 26px;
-      text-align: left;
-    }
-    &__rubles12 {
-      width: 15.45px;
-      height: 17px;
-      margin-top: 29px;
-      margin-left: 5.77px;
-    }
-    &__basket12 {
-      width: 20px;
-      height: 20px;
-      margin-top: 24px;
-      position: absolute;
-      top: 0;
-      left: 192px;
-    }
     &__row1 {
       display: flex;
+      margin-top: 35px;
     }
     &__row2 {
       display: flex;
+      margin-top: 16px;
     }
     &__row3 {
       display: flex;
+      margin-top: 16px;
     }
   }
 }
@@ -962,218 +254,27 @@
       width: 286px;
       height: 408px;
     }
-    &__product2 {
-      width: 286px;
-      height: 408px;
-      margin-left: 16px;
-    }
-    &__product3 {
-      width: 286px;
-      height: 408px;
-      margin-left: 16px;
-    }
-    &__product4 {
-      width: 286px;
-      height: 408px;
-      margin-left: 16px;
-    }
-    &__product5 {
-      width: 286px;
-      height: 408px;
-    }
-    &__product6 {
-      width: 286px;
-      height: 408px;
-      margin-left: 16px;
-    }
-    &__product7 {
-      width: 286px;
-      height: 408px;
-      margin-left: 16px;
-    }
-    &__product8 {
-      margin-left: 16px;
-      width: 286px;
-      height: 408px;
-    }
-    &__product9 {
-      width: 286px;
-      height: 408px;
-    }
-    &__product10 {
-      margin-left: 16px;
-      width: 286px;
-      height: 408px;
-    }
-    &__product11 {
-      margin-left: 16px;
-      width: 286px;
-      height: 408px;
-    }
-    &__product12 {
-      margin-left: 16px;
-      width: 286px;
-      height: 408px;
-    }
     &__image1 {
       width: 238px;
       height: 238px;
-    }
-    &__image2 {
-      width: 237px;
-      height: 237px;
-    }
-    &__image3 {
-      width: 238px;
-      height: 238px;
-    }
-    &__image4 {
-      width: 237px;
-      height: 237px;
-    }
-    &__image5 {
-      width: 238px;
-      height: 238px;
-    }
-    &__image6 {
-      width: 237px;
-      height: 237px;
-    }
-    &__image7 {
-      width: 238px;
-      height: 238px;
-    }
-    &__image8 {
-      width: 237px;
-      height: 237px;
-    }
-    &__image9 {
-      width: 238px;
-      height: 238px;
-    }
-    &__image10 {
-      width: 237px;
-      height: 237px;
-    }
-    &__image11 {
-      width: 238px;
-      height: 238px;
-    }
-    &__image12 {
-      width: 237px;
-      height: 237px;
     }
     &__text1 {
       font-weight: 300;
       font-size: 18px;
       line-height: 27px;
       width: 245px;
-      height: 27px;
-    }
-    &__text4 {
-      font-weight: 300;
-      font-size: 18px;
-      line-height: 27px;
-      width: 245px;
-      height: 27px;
-    }
-    &__text7 {
-      font-weight: 300;
-      font-size: 18px;
-      line-height: 27px;
-      width: 245px;
-      height: 27px;
-    }
-    &__text9 {
-      font-weight: 300;
-      font-size: 18px;
-      line-height: 27px;
-      width: 245px;
-      height: 27px;
-    }
-    &__text12 {
-      font-weight: 300;
-      font-size: 18px;
-      line-height: 27px;
-      width: 245px;
-      height: 27px;
+      height: 54px;
     }
     &__number1 {
       margin-left: 95px;
-      margin-top: 43px;
-    }
-    &__number4 {
-      margin-left: 95px;
-      margin-top: 43px;
-    }
-    &__number7 {
-      margin-left: 95px;
-      margin-top: 43px;
-    }
-    &__number9 {
-      margin-left: 95px;
-      margin-top: 43px;
-    }
-    &__number12 {
-      margin-left: 95px;
-      margin-top: 43px;
+      margin-top: 16px;
     }
     &__rubles1 {
       width: 15.45px;
       height: 17px;
-      margin-top: 49px;
-    }
-    &__rubles4 {
-      width: 15.45px;
-      height: 17px;
-      margin-top: 49px;
-    }
-    &__rubles7 {
-      width: 15.45px;
-      height: 17px;
-      margin-top: 49px;
-    }
-    &__rubles9 {
-      width: 15.45px;
-      height: 17px;
-      margin-top: 49px;
-    }
-    &__rubles12 {
-      width: 15.45px;
-      height: 17px;
-      margin-top: 49px;
+      margin-top: 21px;
     }
     &__basket1{
-      left: 242px;
-    }
-    &__basket3{
-      left: 242px;
-    }
-    &__basket4{
-      left: 242px;
-    }
-    &__basket5{
-      left: 242px;
-    }
-    &__basket6{
-      left: 242px;
-    }
-    &__basket7{
-      left: 242px;
-    }
-    &__basket8{
-      left: 242px;
-    }
-    &__basket9{
-      left: 242px;
-    }
-    &__basket10{
-      left: 242px;
-    }
-    &__basket11{
-      left: 242px;
-    }
-    &__basket12{
       left: 242px;
     }
     &__back-basket {
@@ -1187,43 +288,6 @@
       margin-top: 24px;
       margin-left: 16px;
     }
-    &__number2 {
-      margin-left: 95px;
-      margin-top: 16px;
-    }
-    &__rubles2 {
-      margin-top: 21px;
-    }
-    &__text6 {
-      font-size: 18px;
-      line-height: 27px;
-      width: 254px;
-      height: 54px;
-      margin-top: 24px;
-      margin-left: 16px;
-    }
-    &__number6 {
-      margin-left: 95px;
-      margin-top: 16px;
-    }
-    &__rubles6 {
-      margin-top: 21px;
-    }
-    &__text11 {
-      font-size: 18px;
-      line-height: 27px;
-      width: 254px;
-      height: 54px;
-      margin-top: 24px;
-      margin-left: 16px;
-    }
-    &__number11 {
-      margin-left: 95px;
-      margin-top: 16px;
-    }
-    &__rubles11 {
-      margin-top: 21px;
-    }
     &__text3 {
       font-size: 18px;
       line-height: 27px;
@@ -1232,147 +296,7 @@
       margin-top: 25px;
       margin-left: 16px;
     }
-    &__number3 {
-      margin-left: 95px;
-      margin-top: 16px;
-    }
-    &__rubles3 {
-      margin-top: 21px;
-    }
-    &__text5 {
-      font-size: 18px;
-      line-height: 27px;
-      width: 254px;
-      height: 54px;
-      margin-top: 25px;
-      margin-left: 16px;
-    }
-    &__number5 {
-      margin-left: 95px;
-      margin-top: 16px;
-    }
-    &__rubles5 {
-      margin-top: 21px;
-    }
-    &__text8 {
-      font-size: 18px;
-      line-height: 27px;
-      width: 254px;
-      height: 54px;
-      margin-top: 25px;
-      margin-left: 16px;
-    }
-    &__number8 {
-      margin-left: 95px;
-      margin-top: 16px;
-    }
-    &__rubles8 {
-      margin-top: 21px;
-    }
-    &__text10 {
-      font-size: 18px;
-      line-height: 27px;
-      width: 254px;
-      height: 54px;
-      margin-top: 25px;
-      margin-left: 16px;
-    }
-    &__number10 {
-      margin-left: 95px;
-      margin-top: 16px;
-    }
-    &__rubles10 {
-      margin-top: 21px;
-    }
     &__heart1{
-      display: flex;
-      position: absolute;
-      width: 24px;
-      height: 22px;
-      margin-top: 2px;
-      top:20px;
-      left:24px;}
-    &__heart2{
-      display: flex;
-      position: absolute;
-      width: 24px;
-      height: 22px;
-      margin-top: 2px;
-      top:20px;
-      left:24px;}
-    &__heart3{
-      display: flex;
-      position: absolute;
-      width: 24px;
-      height: 22px;
-      margin-top: 2px;
-      top:20px;
-      left:24px;}
-    &__heart4{
-      display: flex;
-      position: absolute;
-      width: 24px;
-      height: 22px;
-      margin-top: 2px;
-      top:20px;
-      left:24px;}
-    &__heart5{
-      display: flex;
-      position: absolute;
-      width: 24px;
-      height: 22px;
-      margin-top: 2px;
-      top:20px;
-      left:24px;}
-    &__heart6{
-      display: flex;
-      position: absolute;
-      width: 24px;
-      height: 22px;
-      margin-top: 2px;
-      top:20px;
-      left:24px;}
-    &__heart7{
-      display: flex;
-      position: absolute;
-      width: 24px;
-      height: 22px;
-      margin-top: 2px;
-      top:20px;
-      left:24px;}
-    &__heart8{
-      display: flex;
-      position: absolute;
-      width: 24px;
-      height: 22px;
-      margin-top: 2px;
-      top:20px;
-      left:24px;}
-    &__heart9{
-      display: flex;
-      position: absolute;
-      width: 24px;
-      height: 22px;
-      margin-top: 2px;
-      top:20px;
-      left:24px;}
-    &__heart10{
-      display: flex;
-      position: absolute;
-      width: 24px;
-      height: 22px;
-      margin-top: 2px;
-      top:20px;
-      left:24px;}
-    &__heart11{
-      display: flex;
-      position: absolute;
-      width: 24px;
-      height: 22px;
-      margin-top: 2px;
-      top:20px;
-      left:24px;}
-    &__heart12{
       display: flex;
       position: absolute;
       width: 24px;
