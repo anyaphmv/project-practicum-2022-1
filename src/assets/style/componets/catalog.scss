@@ -1,7 +1,4 @@
 .catalog{
-  display: flex;
-  gap: 88px;
-  text-align: center;
   &__product1{
     background: #FFFFFF;
     border: 1px solid #E9E9E9;
@@ -128,8 +125,6 @@
   }
   &__heart1{display: none}
   &__row1{
-    flex-direction: column;
-    justify-content: center;
     margin-top: 4px;
   }
   &__row2{display: none}
