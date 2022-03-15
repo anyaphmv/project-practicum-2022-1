@@ -1,0 +1,17 @@
+@media screen and (min-width: 1024px) {
+  .all-catalog{
+    &__top-line{
+      padding-bottom: 35px;
+    }
+  }
+}
+@media screen and (min-width: 1920px) {
+  .all-catalog{
+    padding-left: 88px;
+    &__top-line{
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 46px;
+    }
+  }
+}

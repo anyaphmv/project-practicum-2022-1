@@ -2,37 +2,24 @@
   height: 143px;
   background: #202020;
   margin-top: 64px;
-  justify-content: flex-end;
-  align-items: center;
 
   &__legacy{
-    width: 296px;
-    height: 18px;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 18px;
     text-align: center;
     color: #909090;
-    padding-top: 24px;
-    margin-left: 12px;
   }
   &__political{
-    width: 296px;
-    height: 21px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 21px;
     text-decoration-line: underline;
     color: #FFCC07;
-    padding-top: 16px;
-    margin-left: 12px;
-    text-align: center;
   }
   &__company{
-    width: 170px;
-    height: 24px;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -40,37 +27,28 @@
     line-height: 150%;
     letter-spacing: 0.4px;
     color: #909090;
-    padding-top: 16px;
-    margin-left: 79px;
+  }
+  &__texts{
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 16px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .footer {
     display: flex;
+    height: 72px;
     align-items: center;
     justify-content: center;
-    height: 72px;
     &__texts{
+      padding-top: 0;
       display: flex;
-    }
-    &__legacy{
-      padding-top: 25px;
-      margin-left: 16px;
-      width: 108px;
-      height: 21px;
-    }
-    &__political{
-      padding-top: 24px;
-      margin-left: 284px;
-      width: 208px;
-      height: 21px;
-    }
-    &__company{
-      padding-top: 24px;
-      margin-left: 230px;
-      width: 172px;
-      height: 24px;
+      flex-direction: row;
+      column-gap: 200px;
     }
   }
 }

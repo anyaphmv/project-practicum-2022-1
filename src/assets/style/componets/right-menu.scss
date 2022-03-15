@@ -5,158 +5,101 @@
 @media screen and (min-width: 1920px) {
   .right-menu {
     display: flex;
-    //align-items: center;
-    //justify-content: left;
-    position: absolute;
-    &__icons{
-      width: 56px;
-      height: 24px;
+    max-width: 20%;
+    &__symbols{
       display: flex;
+      flex-direction: column;
+      row-gap: 16px;
+    }
+    &__icons{
+      display: flex;
+      gap: 14px;
     }
     &__icon-black{
-      position: relative;
       Width:18px;
       Height:18px;
-      margin-left: 152px;
     }
     &__icon-gray{
-      position: relative;
       Width:18px;
       Height:18px;
-      margin-left: 14px;
     }
     &__line1{
       width: 320px;
       height: 1px;
       background: #D2D2D2;
-      margin-top: 16px;
-      margin-left: 152px;
     }
-
     &__category1{
-      margin-top: 16px;
-      margin-left: 152px;
       font-style: normal;
       font-weight: 300;
       font-size: 16px;
       color: #636363;
     }
-    &__first{
+    &__names{
       display: flex;
+      flex-direction: row;
     }
     &__arrow{
-      margin-top: 5px;
-      width: 10px;
-      height: 5px;
-      margin-left: 300px;
+      padding-left: 215px;
     }
-    &__arrows{
-      margin-top: 26px;
-      width: 10px;
-      height: 5px;
-      margin-left: 263px;
+    &__arrow1{
+      padding-left: 248px;
     }
-    &__slider{
-      display: flex;
-    }
-    &__slider1{
-      width: 4px;
-      height: 168px;
-      background: #E9E9E9;
-      margin-top: 25px;
-      margin-left: 304px;
-      border-radius: 3px;
-      position: absolute;
-    }
-    &__slider2{
-      position: absolute;
-      width: 4px;
-      height: 140px;
-      background: #636363;
-      border-radius: 3px;
-      margin-top: 25px;
-      margin-left: 304px;
+    &__arrow2{
+      padding-left: 258px;
     }
     &__title1{
-      position: absolute;
-      width: 83px;
       font-style: normal;
       font-weight: bold;
       font-size: 16px;
       color: #202020;
-    }
-    &__title2{
-      font-style: normal;
-      font-weight: bold;
-      font-size: 16px;
-      color: #202020;
-      margin-top: 16px;
-      margin-left: 152px;
     }
     &__title3{
       font-style: normal;
       font-weight: 550;
       font-size: 14px;
       color: #202020;
-      margin-top: 24px;
-      margin-left: 152px;
     }
-    &__check1{
-      width: 152px;
-      height: 24px;
-      margin-top: 16px;
+    input{margin: 0;}
+    &__checks{
       color: #636363;
-    }
-    &__check2{
-      margin-top: 2px;
-      width: 152px;
-      height: 24px;
-      color: #636363;
-    }
-    &__zena{
+      padding-top: 16px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 6px;
     }
     &__polzunok{
       display: flex;
     }
     &__line5{
-      width: 305px;
+      width: 290px;
       height: 4px;
       background: rgba(32, 32, 32, 0.1);
       margin-top: 22px;
-      margin-left: 155px;
     }
     &__circle1{
-      position: absolute;
       width: 16px;
       height: 16px;
       background: #7C48BF;
       box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
       border-radius: 8px;
       margin-top: 16px;
-      margin-left: 155px;
     }
     &__circle2{
-      position: absolute;
       width: 16px;
       height: 16px;
       background: #7C48BF;
       box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
       border-radius: 8px;
       margin-top: 16px;
-      margin-left: 455px;
     }
     &__prices{
       display: flex;
-      margin-top: 12px;
-      margin-left: 155px;
       font-style: normal;
       font-weight: 300;
       font-size: 16px;
       color: #636363;
+      margin-top: 6px;
+      justify-content: space-between;
     }
-    &__zena2{
-      margin-left: 195px;
-    }
-
   }
 }

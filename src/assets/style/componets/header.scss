@@ -138,17 +138,13 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			//width: 1600px;
-			//height: 72px;
 			margin-top: 60px;
-			//margin-left: 150px;
 			font-style: normal;
 			font-weight: 500;
 			font-size: 14px;
 			text-transform: uppercase;
+			column-gap: 30px;
 		}
-		&__item2{margin-left: 29.06px;}
-		&__item3{margin-left: 29.06px;width: 258.65px;text-align: center;}
 		&__item14{margin-left: 75.13px;color: #FF0000;}
 	}
 }

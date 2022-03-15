@@ -5,28 +5,24 @@
     font-size: 30px;
     line-height: 33px;
     color: #202020;
-    margin-top: 22px;
-    margin-left: 12px;
   }
 }
 @media screen and (min-width: 1024px) {
   .title {
+    padding-bottom: 24px;
     &__name{
-      margin-top: 27px;
+      font-size: 36px;
     }
   }
 }
 @media screen and (min-width: 1920px) {
   .title {
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
     &__name{
-      position: relative;
       font-weight: 600;
       font-size: 48px;
-      width: 648px;
-      height: 54px;
+
     }
   }
 }
