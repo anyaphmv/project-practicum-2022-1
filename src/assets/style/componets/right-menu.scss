@@ -8,40 +8,22 @@
     //align-items: center;
     //justify-content: left;
     position: absolute;
-    &__rectangle1{
+    &__icons{
+      width: 56px;
+      height: 24px;
+      display: flex;
+    }
+    &__icon-black{
       position: relative;
       Width:18px;
       Height:18px;
-      background: #202020;
-      border-radius: 2px;
       margin-left: 152px;
-      margin-top: -61px;
     }
-    &__rectangle2{
-      position: absolute;
-      Width:12px;
-      Height:2px;
-      background: #FFFFFF;
-      margin-left: 3px;
-      margin-top: 8px;
-    }
-    &__rectangle3{
+    &__icon-gray{
       position: relative;
       Width:18px;
       Height:18px;
-      background: #D2D2D2;
-      border-radius: 2px;
-      margin-left: 184px;
-      margin-top: -18px;
-    }
-    &__rectangle4{
-      position: absolute;
-      Width:11px;
-      Height:11px;
-      box-sizing: border-box;
-      border: 2px solid #FFFFFF;
-      margin-left: 3px;
-      margin-top: 3px;
+      margin-left: 14px;
     }
     &__line1{
       width: 320px;
