@@ -55,28 +55,22 @@
 @media screen and (min-width: 1024px) {
   .filter {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
     &__button-filter {
       margin-left: 16px;
       width: 488px;
       margin-top: 24px;
     }
-
-    &__image {
-      margin-left: 196px;
-    }
-
+    &__image {margin-left: 196px;}
     &__button-alphabet {
       margin-left: 16px;
       margin-top: 24px;
       width: 488px;
     }
-
-    &__arrow {
-      margin-left: 235px;
-    }
-    &__sorts{
-      display: none;
-    }
+    &__arrow {margin-left: 235px;}
+    &__sorts{display: none;}
   }
 }
 
@@ -84,18 +78,19 @@
   .filter {
     margin-left: 1490px;
     &__button-alphabet{
-      position: absolute;
+      //position: absolute;
       margin-top: -60px;
       width: 250px;
-      height: 48px;}
+      height: 48px;
+    }
     &__button-filter {
       display: none;
     }
     &__sorts{
       display: flex;
       position: absolute;
-      margin-top: -40px;
-      margin-left: -100px;
+      margin-top: -65px;
+      margin-left:-400px;
       font-style: normal;
       font-weight: normal;
       font-size: 14px;
