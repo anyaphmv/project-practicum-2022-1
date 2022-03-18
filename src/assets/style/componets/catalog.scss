@@ -7,14 +7,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 24px 16px;
     background: #FFFFFF;
     border: 1px solid #E9E9E9;
     box-sizing: border-box;
     border-radius: 2px;
-    Width: 296px;
+    //Width: 296px;
     Height: 417px;
     padding: 24px 24px;
+    flex-grow: 1;
   }
   &__images1{
     display: flex;
@@ -24,6 +24,7 @@
   &__image1{
     width: 248px;
     height: 248px;
+    margin: auto;
   }
   &__text1{
     font-style: normal;
@@ -110,7 +111,7 @@
   .catalog {
     gap: 16px;
     &__product {
-      width: 236px;
+      //width: 236px;
       height: 356px;
     }
     &__image1 {
@@ -173,7 +174,7 @@
 @media screen and (min-width: 1920px) {
   .catalog {
     &__product {
-      width: 286px;
+      //width: 286px;
       height: 408px;
       padding: 24px 16px;
     }
