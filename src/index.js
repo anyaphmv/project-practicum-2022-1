@@ -5,6 +5,7 @@ import MobileNav from "@/components/mobile-nav";
 import Nav from '@/components/nav';
 import getCatalogItems from "@/api/getCatalogItems";
 import Catalog from "@/components/catalog";
+import Filter from "@/components/example";
 import getFilterItems from "@/api/getFilterItems";
 
 if (document.readyState === 'loading') {
@@ -26,10 +27,9 @@ async function init() {
         onChange: sortCallback,
         cookieName: 'catalog-sort'
     })
-
+    const filters = new Filter(document.getElementById('filter-items'))
     const filterItems = await getFilterItems()
-    console.log(filterItems)
-    //render filter items
+    filters.renderFilters(filterItems)
 
     function filter() {
         const accordions = []
