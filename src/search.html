@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hi</title>
+    <title>Search</title>
 </head>
 <body>
 <svg display="none" xmlns="http://www.w3.org/2000/svg">
@@ -82,8 +82,6 @@
         <path d="M8.00057 16L10 14.0056L3.97907 8L10 1.99436L8.00057 2.62194e-07L1.04611e-06 7.97743L0.022626 8L1.05203e-06 8.02257L8.00057 16Z"
               fill="white"/>
     </symbol>
-
-
 </svg>
 
 <header class="header">
@@ -107,9 +105,9 @@
         </svg>
 
         <div class="header__middle">
-            <form class="header__search" id="search-form">
+            <form class="header__search">
                 <label class="header__search-label">
-                    <input type="text" id="search-input" data-search-input>
+                    <input type="text">
                 </label>
 
                 <button class="header__search-btn">
@@ -133,14 +131,10 @@
                     <use href="#person"></use>
                 </svg>
             </div>
-            <div class="header__link" id="basket">
-                <a href="http://localhost:3000/basket.html">
-                    <svg class="svg-white" width="16" height="16">
-                        <use href="#basket"></use>
-                    </svg>
-                </a>
-
-                <div class="header__basket-length" id="basket-length">0</div>
+            <div class="header__link">
+                <svg class="svg-white" width="16" height="16">
+                    <use href="#basket"></use>
+                </svg>
             </div>
         </div>
     </div>
@@ -158,33 +152,12 @@
                     Главная
                 </div>
                 <div class="breadcrumbs__link">
-                    Велосипеды
+                    Поиск
                 </div>
             </div>
         </div>
 
         <div class="catalog__content">
-            <div class="catalog__filters filters">
-                <div class="filters__controls">
-                    <svg class="filters__control-item" width="18" height="18"
-                         data-filters-open>
-                        <use href="#turn"></use>
-                    </svg>
-
-                    <svg class="filters__control-item" width="18" height="18"
-                         data-filters-hide>
-                        <use href="#un-turn"></use>
-                    </svg>
-                </div>
-
-                <div class="filters__items" id="filter-items">
-                </div>
-
-                <button class="filters__btn body-2" data-filters-reset>
-                    сбросить все
-                </button>
-            </div>
-
             <div class="catalog__inner">
                 <div class="catalog__header">
                     <h1 class="h1">Велосипеды</h1>
@@ -265,18 +238,17 @@
 
                             <div class="select__inner">
                                 <div class="select__item"
-                                     data-select-item=6>
+                                     data-select-item="alp">
                                     6
                                 </div>
 
-
                                 <div class="select__item"
-                                     data-select-item=12>
+                                     data-select-item="price-down">
                                     12
                                 </div>
 
                                 <div class="select__item"
-                                     data-select-item=24>
+                                     data-select-item="price-up">
                                     24
                                 </div>
                             </div>

@@ -1,4 +1,6 @@
 import Cookie from '../utils/cookie.js'
+import getFilterItems from "../api/getFilterItems";
+import {catalogRenderData} from "../server-front/catalog";
 
 export default class Select {
     constructor({el, onChange, cookieName}) {
@@ -14,11 +16,11 @@ export default class Select {
     
     init() {
         if (this.cookieName) {
+            console.log(this.cookieName)
             const value = Cookie.getCookie(this.cookieName)
             
             if (value) {
                 const item = this.el.querySelector(`[data-select-item="${value}"]`)
-                
                 this.changeValue(item)
             }
         } 
@@ -47,9 +49,11 @@ export default class Select {
         const name = item.innerText.trim()
         this.headerText.innerText = name
         this.hide()
-        
-        if (this.cookieName) {
+
+        if (this.cookieName === 'catalog-sort') {
             Cookie.setCookie(this.cookieName, value)
+        } else if(this.cookieName === 'catalog-limit') {
+            Cookie.setCookie(this.cookieName, name)
         }
         
         if (this.onChange) {

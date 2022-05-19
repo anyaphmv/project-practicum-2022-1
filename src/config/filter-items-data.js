@@ -15,22 +15,6 @@ export default [
             {
                 title: 'Гоночные',
                 code: 'gonochnie'
-            },
-            {
-                title: 'ФэтБайки',
-                code: 'fatbile'
-            },
-            {
-                title: 'Двухподвесные',
-                code: 'dvuhpodvesnie'
-            },
-            {
-                title: 'Детские',
-                code: 'detskie'
-            },
-            {
-                title: 'Женские',
-                code: 'genskie'
             }
         ]
     },
@@ -50,22 +34,6 @@ export default [
             {
                 title: 'SUPERIOR',
                 code: 'superior'
-            },
-            {
-                title: 'BERGAMONT',
-                code: 'bergamont'
-            },
-            {
-                title: 'SPECIALIZED',
-                code: 'specialzed'
-            },
-            {
-                title: 'KONA',
-                code: 'kona'
-            },
-            {
-                title: 'PRIDE',
-                code: 'pride'
             }
         ]
     }

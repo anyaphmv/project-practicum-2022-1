@@ -1,12 +1,8 @@
 import './assets/style/index.scss'
-import Select from './components/select'
-import Accordion from "@/components/accordion";
+import Basket from './components/basket'
 import MobileNav from "@/components/mobile-nav";
 import Nav from '@/components/nav';
-import getCatalogItems from "@/api/getCatalogItems";
 import Catalog from "@/components/catalog";
-import Filter from "@/components/example";
-import getFilterItems from "@/api/getFilterItems";
 
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
@@ -18,44 +14,6 @@ if (document.readyState === 'loading') {
 
 async function init() {
     new Nav('nav');
-    const sortEl = document.getElementById('sort')
-    const sortCallback = (item) => {
-        console.log(item)
-    }
-    new Select({
-        el: sortEl,
-        onChange: sortCallback,
-        cookieName: 'catalog-sort'
-    })
-    const filters = new Filter(document.getElementById('filter-items'))
-    const filterItems = await getFilterItems()
-    filters.renderFilters(filterItems)
-
-    function filter() {
-        const accordions = []
-
-        const accordionsEl = document.querySelectorAll('[data-accordion]')
-        accordionsEl.forEach(accordion => {
-            accordions.push(new Accordion(accordion))
-        })
-
-        const hideFiltersBtn = document.querySelector('[data-filters-open]')
-        const openFiltersBtn = document.querySelector('[data-filters-hide]')
-
-        hideFiltersBtn.addEventListener('click', () => {
-            accordions.forEach(accordion => {
-                accordion.hide()
-            })
-        })
-
-        openFiltersBtn.addEventListener('click', () => {
-            accordions.forEach(accordion => {
-                accordion.open()
-            })
-        })
-    }
-
-    filter()
 
     if (window.innerWidth <= 1024) {
         const mobileNav = new MobileNav(document.getElementById('nav'))
@@ -84,10 +42,18 @@ async function init() {
         })
     }
 
-    const catalog = new Catalog(document.getElementById('catalog-items'))
+    const isBasket = window.location.href.includes('basket')
 
-    const catalogItems = await getCatalogItems()
-
-    catalog.renderItems(catalogItems)
-
+    if (isBasket) {
+        await new Basket(
+            document.getElementById('basket-items'),
+            document.getElementById('basket-info'),
+        ).init()
+    } else {
+        await new Catalog(
+            document.getElementById('catalog-items'),
+            document.getElementById('filter-items'),
+            document.getElementById('pagination'),
+        ).init();
+    }
 }
